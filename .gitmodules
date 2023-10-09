@@ -1,0 +1,3 @@
+[submodule "software/dependencies/Arduino_Boards"]
+	path = software/dependencies/Arduino_Boards
+	url = https://github.com/sparkfun/Arduino_Boards.git

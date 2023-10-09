@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  openhornet:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/home/openhornet:Z
+    stdin_open: true
+    tty: true
+    command: /bin/bash
